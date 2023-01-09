@@ -16,6 +16,6 @@ Projeto **Letmeask**, cuja premissa é centralizar perguntas feitas pelos usuár
 
 ## Links importantes
 
-[GitHub Rocketseat](https://github.com/rocketseat-education/nlw-06-reactjs)
-[Figma](https://www.figma.com/file/E36sixFESzlR7Hk1Vr8efV/Letmeask-(Community)?node-id=0%3A1&t=YbQ7yQck2TGQXyZh-0)
+- [GitHub Rocketseat](https://github.com/rocketseat-education/nlw-06-reactjs)
+- [Figma](https://www.figma.com/file/E36sixFESzlR7Hk1Vr8efV/Letmeask-(Community)?node-id=0%3A1&t=YbQ7yQck2TGQXyZh-0)
 
