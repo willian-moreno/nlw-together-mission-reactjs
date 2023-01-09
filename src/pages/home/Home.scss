@@ -1,0 +1,42 @@
+@import '@/styles/auth.scss';
+
+#page-auth {
+  .main-content {
+    .create-room {
+      background: #ea4335;
+      color: #fff;
+    }
+
+    .create-room,
+    .login {
+      img {
+        margin-right: 8px;
+      }
+    }
+
+    .separator {
+      font-size: 14px;
+      color: #a8a8b3;
+
+      margin: 32px 0;
+      display: flex;
+      align-items: center;
+
+      &::before,
+      &::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background: #a8a8b3;
+      }
+
+      &::before {
+        margin-right: 16px;
+      }
+
+      &::after {
+        margin-left: 16px;
+      }
+    }
+  }
+}
