@@ -1,5 +1,5 @@
 import { auth, firebase } from '@/plugins/firebase';
-import { createContext, useEffect, useState, ReactNode } from 'react';
+import { createContext, ReactNode, useEffect, useState } from 'react';
 
 type AuthContextProviderProps = {
   children: ReactNode;

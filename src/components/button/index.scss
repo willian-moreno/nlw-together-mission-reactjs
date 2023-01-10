@@ -15,10 +15,12 @@
 
   cursor: pointer;
 
-  transition: filter 0.2s;
+  transition: filter 0.2s, scale 0.2s, box-shadow 0.2s;
 
   &:not(:disabled):not(:active):hover {
     filter: brightness(1.1);
+    scale: 1.03;
+    box-shadow: 0 0px 10px -2px #00000050;
   }
 
   &:disabled {
