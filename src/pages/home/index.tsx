@@ -2,7 +2,7 @@ import googleIconImg from '@/assets/images/google-icon.svg';
 import illustrationImg from '@/assets/images/illustration.svg';
 import loginIconImg from '@/assets/images/log-in.svg';
 import logoImg from '@/assets/images/logo.svg';
-import { Button } from '@/components/button';
+import { Button } from '@/components/Button';
 import { useAuth } from '@/hooks/useAuth';
 import { database } from '@/plugins/firebase';
 import { ChangeEvent, FormEvent, useState } from 'react';

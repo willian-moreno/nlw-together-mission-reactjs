@@ -1,7 +1,8 @@
 import { AuthContextProvider } from '@/contexts/AuthContext';
-import { Home } from '@/pages/home';
-import { NewRoom } from '@/pages/new-room';
-import { Room } from '@/pages/room';
+import { Home } from '@/pages/Home';
+import { NewRoom } from '@/pages/NewRoom';
+import { Room } from '@/pages/Room';
+import { AdminRoom } from '@/pages/AdminRoom';
 import { StrictMode } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
@@ -24,6 +25,10 @@ export function App() {
             <Route
               path="/rooms/:id"
               component={Room}
+            />
+            <Route
+              path="/admin/rooms/:id"
+              component={AdminRoom}
             />
           </Switch>
         </AuthContextProvider>
